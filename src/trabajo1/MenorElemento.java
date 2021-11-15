@@ -20,12 +20,7 @@ public class MenorElemento {
 	    
 		int [] arreglo = new int[cantidad];
 		
-		System.out.println("Llenar el Array");
-		for(int i = 0; i < arreglo.length ; i++ ){
-			arreglo[i] = sc.nextInt();
-		}
 		
-		//System.out.println("El numero maximo es: "+maxRec(arreglo,0,arreglo.length-1));
 		System.out.println("El numero minimo es: "+minRec(arreglo,0,arreglo.length-1));
 	}
 
